@@ -1,0 +1,23 @@
+model:
+  name: fwi-fvb
+  model: HWNO
+  hidden_channels: 64
+  modes: 20
+  wavelet: 'db2'
+  level: 2
+data:
+  name: "fvb"
+  task: "loc_f"
+  root_dir: "./dataset"
+  batch_size: 10
+optimizer:
+  learning_rate: 0.001
+  epochs: 100
+  grad_clip_norm: 1.
+  gamma: 0.9
+summary:
+  root_dir: "./summary"
+  ckpt_dir: "./checkpoints"
+  test_interval: 1
+  save_ckpt_interval: 20
+  print_step_interval: 100
