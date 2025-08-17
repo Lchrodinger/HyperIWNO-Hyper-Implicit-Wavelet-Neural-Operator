@@ -4,10 +4,12 @@
 1. First clone the directory.
 2. Install dependencies. We recommand creating a new environment using conda, then install all the dependencies using conda or pip.
 Install [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
+
 Install pytorch:
 ```
 pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 ```
+
 Install other dependencies:
 ```
 pip install -r requirements.txt
