@@ -13,7 +13,7 @@ Install other dependencies:
 pip install -r requirements.txt
 ```
 ## Dataset
-All the source data used in the paper can be generated/downloaded from [OpenFWI](https://github.com/lanl/OpenFWI).
+All the source data used in the paper can be generated/downloaded from [OpenFWI](https://github.com/lanl/OpenFWI) and [here](https://github.com/lu-group/fourier-deeponet-fwi).
 
 ## Training
 1. First, config the yaml file in the config directory.
