@@ -3,6 +3,7 @@
 ## Installation
 1. First clone the directory.
 2. Install dependencies. We recommand creating a new environment using conda, then install all the dependencies using conda or pip.
+   
 Install [pytorch_wavelets](https://github.com/fbcotter/pytorch_wavelets).
 
 Install pytorch:
@@ -19,8 +20,8 @@ All the source data used in the paper can be generated/downloaded from [OpenFWI]
 
 ## Training
 1. First, config the yaml file in the config directory.
-2. Then, simply run the following code.
+2. Then, simply run the following code:
    ```
-   python train_wno.py
+   python train.py
    ```
    
