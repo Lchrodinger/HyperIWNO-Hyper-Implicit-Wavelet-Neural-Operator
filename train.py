@@ -7,7 +7,7 @@ import torch
 from tqdm.autonotebook import tqdm
 from torch.utils.data import DataLoader
 from data import SeismicData
-from model import WaveletDeepONet, IWaveletDeepONet, HIWaveletDeepONet, HWaveletDeepONet, HWaveletDeepONet2
+from model import HIWaveletDeepONet
 from utils import load_yaml_config, log_config, print_log, log_timer, visual, calculate_l2_error
 
 
@@ -173,3 +173,4 @@ if __name__ == '__main__':
     args = parse_args()
 
     train(args)
+
